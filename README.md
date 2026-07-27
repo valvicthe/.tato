@@ -1,11 +1,7 @@
-# Rainway (dont use this, it's old, unmaintained and insecure nowadays, as it has an old version of Laravel and honestly, a lot of routes in web.php should have been written as controllers. I was new to web dev when I made this. Kept for archival purposes only.)
-> The source of Rainway, an open source old Roblox Revival!
+# .tato
+> The source of .tato, an open source Roblox Revival!
 
-[![Build Status][travis-image]][travis-url]
-
-![alt text](https://rainway.cf/logo.png)
-
-Rainway is a project meant to give people the possibility to play legacy versions of the game Roblox, allowing you to deploy servers of your own on a secure code foundation.
+.tato is a project meant to give people the possibility to play legacy versions of the game Roblox, with current support for the 2020 client!
 
 ## Dependencies
 * PHP
@@ -16,10 +12,10 @@ Rainway is a project meant to give people the possibility to play legacy version
 ## Installation
 
 ```sh
-git clone https://github.com/Flofy-Dev/rainway-source
+git clone https://github.com/valvicthe/.tato
 ```
 
-Create a .env file with your details (app name, url, database details etc.). The ".env.example" file is an example of the enviroment structure.
+Create a .env file with your details (app name, url, database details etc.). The ".env" file is an example of the enviroment structure.
 Then, run these commands to compile the code and add the database tables.
 
 ```sh
@@ -34,7 +30,7 @@ You have now succesfully compiled the Rainway code!
 ## Usage
 If you want to directly deploy the server with Laravel, you can use ```php artisan serve```. <br>
 Alternatively, you can use any webserver you want! (Apache, Nginx etc.). <br>
-You can use any database driver you want, just configure it in the .env file. For example, the Rainway source should work with MySQL, SQLite, PostgreSQL and more. <br>
+You can use any database driver you want, just configure it in the .env file. For example, the .tato source should work with MySQL, SQLite, PostgreSQL and more. <br>
 Check out the Laravel 9 documentation for more info. https://laravel.com/docs/9.x/
 
 ## Release History
@@ -57,31 +53,6 @@ Check out the Laravel 9 documentation for more info. https://laravel.com/docs/9.
 * 1.0.0
     * Working login system
 
-## Meta
-
-Flofy – [Youtube](https://www.youtube.com/channel/UCbkjKnxMaS9PKfGdw4lTJoA) <br>
-      - Discord: Flofy#3208 <br>
-
-[My GitHub profile](https://github.com/Flofy-Dev/) <br>
+## License
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
-
-## Contributing
-
-1. Fork it (<https://github.com/Flofy-Dev/rainway-source/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
-
-## More info
-You can join the official Discord here! https://discord.com/invite/B7KsMcEY4A <br>
-The website of Rainway is https://rainway.xyz. You can check it out there!
-
-<!-- Markdown link & img dfn's -->
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/yourname/yourproject/wiki
